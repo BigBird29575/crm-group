@@ -1,0 +1,31 @@
+.placeholder{
+    background-color: #3106f2;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+.placeholder{
+    border-radius: 12px;
+}
+
+.float{
+    float: right;
+}
+
+.blue-curve { 
+    background: blue;
+    border-radius: 25px; 
+    width: 20%;
+    height: 20%;
+}
+
+.shape-style {
+    clip-path: polygon(100% 0, 98% 39%, 95% 61%, 88% 75%, 69% 92%, 43% 98%, 0 100%, 0 0);
+}

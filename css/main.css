@@ -1,0 +1,79 @@
+.footer-bg-color{
+    background-color:rgb(18, 6, 240);
+}
+
+.footer-title-color{
+    color:white;
+}
+
+.footer-floor{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.button-1{
+    background-color: #3106f2;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 2px;
+    cursor: pointer;
+  }
+
+.button-1{
+    border-radius: 12px;
+}
+
+.button-2{
+    background-color: #2206f6;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: align-right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 3px 1px;
+    border-radius: 12px;
+}
+
+.button-2-border {
+    border-color: #2206f6;
+}
+
+.button-3{
+    background-color: #2206f6;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: align-right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.button-3{
+    border-radius: 12px;
+}
+
+.button-4{
+    background-color: #2206f6;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: align-right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.button-4{
+    border-radius: 12px;
+}
