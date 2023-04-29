@@ -6,4 +6,21 @@
     background-color: rgb(7, 7, 251);
     color: white;
     text-align: center;
- }
+}
+
+.footer-button-4{
+    background-color: rgb(58, 203, 58);
+    bottom: 0;
+    width: 20%;
+    color:white;
+    border: none;
+}
+
+.footer-button-5{
+    background-color: white;
+    color:rgb(7, 7, 251);
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    margin-bottom: 60px;
+}
