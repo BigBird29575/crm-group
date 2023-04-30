@@ -7,6 +7,7 @@
     background-color: #2206f6;
     color: white;
     text-align: center;
+    z-index: 1;
 }
 
 .footer-button-4{
@@ -28,4 +29,13 @@
 
 .footer-button-4{
     padding: 6px 12px !important;
+}
+
+.line {
+    border-bottom: 5px solid rgb(87, 85, 85);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
