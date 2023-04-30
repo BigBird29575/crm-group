@@ -1,0 +1,291 @@
+.container 
+
+{  
+display: grid;
+grid-template-columns: 0.4fr 0.8fr 2.3fr 0.8fr 1.2fr 0.7fr;
+grid-template-rows: 0.2fr 1.4fr 0.7fr 1.6fr 0.8fr 1.6fr 0.9fr;
+grid-auto-columns: 1fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+  ". logo nav-list nav-list signtry ."
+  ". focus-on-your-business focus-on-your-business option-grid option-grid ."
+  ". . latin-1 latin-1 latin-1 ."
+  ". collect-useful-info collect-useful-info collect-useful-info collect-useful-info ."
+  ". . latin-2 latin-2 latin-2 ."
+  ". get-paid-sooner get-paid-sooner get-paid-sooner get-paid-sooner ."
+  "try-double-tap try-double-tap try-double-tap try-double-tap try-double-tap try-double-tap";
+}
+
+
+.logo 
+
+{
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+
+
+.nav-list
+
+{ 
+  display: flex;
+  list-style: none;
+  text-decoration-line: none;
+}
+
+
+
+a:link 
+
+{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+a:visited 
+
+{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+a:hover 
+
+{
+  text-decoration: underline;
+  color: blue;
+}
+
+
+
+a:active 
+
+{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.sign-in
+
+{
+  background-color: white;
+  border-color: blue;
+  color: blue;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+
+.try-it-free
+
+{
+  background-color: blue;
+  border-color: blue;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+
+.focus-on-your-business 
+
+{ 
+  grid-area: focus-on-your-business; display: inline-block; 
+}
+
+
+
+.sign-up-free 
+
+{
+  background-color: blue;
+  border-color: blue;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+
+
+.chat-with-us
+
+{
+  background-color: white;
+  border-color: blue;
+  color: blue;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+
+
+.option-grid 
+
+{ 
+  grid-area: option-grid; 
+}
+
+
+
+.collect-useful-info 
+
+{ 
+  grid-area: collect-useful-info; 
+  display: inline-block;
+}
+
+
+
+.latin-1
+
+{ 
+  grid-area: latin-1;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+
+.latin-2 
+
+{ 
+  grid-area: latin-2; 
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+
+.get-paid-sooner 
+
+{ 
+  grid-area: get-paid-sooner; 
+}
+
+
+
+.try-double-tap 
+
+{ 
+  grid-area: try-double-tap; 
+  background-color: blue;
+}
+
+
+
+.try-lets 
+
+{
+  font-family: arial;
+  font-weight: bolder;
+  margin: 25px 0px 0px 0px;
+}
+
+
+
+.get-started
+
+{
+  background-color: limegreen;
+  border-color: blue;
+  border-radius: 40px;
+  color: white;
+  padding: 20px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: arial;
+  font-weight: bold;
+  grid-area: try-double-tap; 
+  margin: 225px 50px 0px 35%;
+}
+
+
+
+.chat-with-us2
+
+{
+  background-color: white;
+  border-color: blue;
+  color: blue;
+  padding: 12px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 0px 20px 0px 80px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: arial;
+  font-weight: bolder;
+  letter-spacing: -.03cm;
+  grid-area: try-double-tap;
+  margin: 50px 0px 0px 0px;
+}
+
+
+.free14
+
+{
+  font-family: arial;
+  font-weight: bolder;
+  margin: 25px 0px 0px 0px;
+}
+
+
+
+.manageminutes
+
+{
+  font-family: arial;
+  font-weight: bolder;
+  margin: 25px 0px 0px 0px;
+}
+
+
+
+.cancel
+
+{
+  font-family: arial;
+  font-weight: bolder;
+  margin: 25px 0px 0px 0px;
+}
