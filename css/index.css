@@ -47,3 +47,55 @@
     color:#040404;
     border-style: ridge;
 }
+
+.center-button-1{
+    background-color: #2206f6;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+.center-button-2{
+    background-color: #2206f6;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+.center-button-3{
+    background-color: #2206f6;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+.center-button-4{
+    background-color: #2206f6;
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
