@@ -26,6 +26,13 @@
     height: 20%;
 }
 
+/* https://css-tricks.com/almanac/properties/c/clip-path/ */ 
+/* Image shape shifting found here*/
+
 .shape-style {
-    clip-path: polygon(100% 0, 98% 39%, 95% 61%, 88% 75%, 69% 92%, 43% 98%, 0 100%, 0 0);
+    clip-path: polygon(100% 100, 98% 100%, 100% 99%, 90% 89%, 70% 92%, 70% 98%, 0 100%, 0 0);
+}
+
+.left {
+    clip-path: ellipse(100% 165% at 80% -65%);
 }
