@@ -161,12 +161,20 @@ a:active
 }
 
 
+.line {
+  border-bottom: 5px solid rgb(87, 85, 85);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .collect-useful-info 
 
 { 
   grid-area: collect-useful-info; 
-  display: inline-block;
+  background-color: blue;
 }
 
 
@@ -175,7 +183,7 @@ a:active
 
 { 
   grid-area: latin-1;
-  font-size: 50px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -185,7 +193,7 @@ a:active
 
 { 
   grid-area: latin-2; 
-  font-size: 50px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -195,97 +203,35 @@ a:active
 
 { 
   grid-area: get-paid-sooner; 
-}
-
-
-
-.try-double-tap 
-
-{ 
-  grid-area: try-double-tap; 
   background-color: blue;
 }
 
 
 
-.try-lets 
-
-{
-  font-family: arial;
-  font-weight: bolder;
-  margin: 25px 0px 0px 0px;
-}
-
-
-
-.get-started
-
-{
-  background-color: limegreen;
-  border-color: blue;
-  border-radius: 40px;
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #2206f6;
   color: white;
-  padding: 20px 70px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
-  cursor: pointer;
-  border-radius: 10px;
-  font-family: arial;
-  font-weight: bold;
-  grid-area: try-double-tap; 
-  margin: 225px 50px 0px 35%;
 }
 
-
-
-.chat-with-us2
-
-{
-  background-color: white;
-  border-color: blue;
-  color: blue;
-  padding: 12px 60px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
-  margin: 0px 20px 0px 80px;
-  cursor: pointer;
-  border-radius: 10px;
-  font-family: arial;
-  font-weight: bolder;
-  letter-spacing: -.03cm;
-  grid-area: try-double-tap;
-  margin: 50px 0px 0px 0px;
+.footer-button-4{
+  background-color: rgb(33, 208, 53);
+  bottom: 0;
+  width: 20%;
+  color:white;
+  border: none;
 }
 
-
-.free14
-
-{
-  font-family: arial;
-  font-weight: bolder;
-  margin: 25px 0px 0px 0px;
+.footer-button-5{
+  background-color: rgb(241, 243, 241);
+  color:#2206f6;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  margin-bottom: 60px;
 }
 
-
-
-.manageminutes
-
-{
-  font-family: arial;
-  font-weight: bolder;
-  margin: 25px 0px 0px 0px;
-}
-
-
-
-.cancel
-
-{
-  font-family: arial;
-  font-weight: bolder;
-  margin: 25px 0px 0px 0px;
-}
+.footer-button-4{
+  padding: 6px 12px !important;}
